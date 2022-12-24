@@ -2,5 +2,11 @@
     background-color: blue;
     display: flex;
     width: auto;
-    align-items: center;
+    /* align-items: center; */
+    justify-items: center;
 }
+
+.navLink{
+    margin-right: 50px;
+}
+

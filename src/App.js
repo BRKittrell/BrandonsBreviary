@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route} from "react-router-dom";
-import { BrowserRouter } from "react-router-dom";
 //Pages
 import About from "./pages/About";
 import Home from "./pages/Home";
@@ -13,7 +12,9 @@ import Visitors from "./pages/Visitors";
 //Components
 import Layout from "./components/Layout";
 //Styling
+import "./styling/about.css"
 import "./styling/layout.css"
+import "./styling/navbar.css"
 
 function App() {
   return (
