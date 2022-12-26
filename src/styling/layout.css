@@ -1,15 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Outfit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito&family=Outfit:wght@200&display=swap');
 html{
     background-color:
-     /* #17183B */
-     #8491A3
+     #001B2E
 }
-
-
 
 .navLink{
     font-family: 'Outfit', sans-serif;
-    font-size: 22px;
+    font-size: 30px;
 color: aliceblue;
 }
 
@@ -23,3 +20,9 @@ a:hover{
     font-weight:300;
 }
 
+p{
+    color: aliceblue;
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}

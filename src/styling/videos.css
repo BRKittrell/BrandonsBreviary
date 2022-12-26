@@ -1,7 +1,17 @@
 .videoDiv{
-    padding: 1rem
+    padding: 1rem;
+    text-align: center;
 }
 
 .iframe{
     padding: 1rem;
+}
+
+.PERNPitLink{
+    text-decoration-line: underline;
+    text-align: center;
+    color: aliceblue;
+}
+.PERNPitLink:hover{
+    color: #BF0603
 }

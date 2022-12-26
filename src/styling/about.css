@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito&family=Outfit:wght@200&display=swap');
 
 .aboutDiv{
-    width: 90%;
     align-self: center;
 }
 .aboutParagraph{
     color: aliceblue;
     font-size: 22px;
     font-family: 'Nunito', sans-serif;
-
+    text-align: justify;
+    margin: auto;
+    padding: 2rem;
 }

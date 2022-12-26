@@ -1,22 +1,22 @@
-.navbar{
-    background-color: blue;
-    display: flex;
-    width: auto;
-    justify-items: center;
-}
-
 .heading{
     font-family: 'Aboreto', cursive;
+    font-size: 44px;
     margin: auto;
     color: #BF0603;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .navLink{
-    padding:1rem
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .navbardiv{
-text-align: center;
-background-color: #001B2E;
+    text-align: center;
+    border-radius: 25px;
+    /* background-color: #001B2E; */
+    width: auto;
 }
+
 

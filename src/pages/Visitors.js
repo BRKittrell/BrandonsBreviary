@@ -44,7 +44,7 @@ const Visitors = () => {
             value={note}
           ></textarea>
           <br></br>
-          <button type="submit"> Submit Your Review!</button>
+          <button type="submit"> Submit</button>
         </form>
       </div>
       <div>
