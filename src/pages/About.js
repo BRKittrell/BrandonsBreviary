@@ -3,6 +3,7 @@ import React from "react";
 const About = () => {
     return (
         <div className="aboutDiv">
+        <area style={{background: 'black'}} shape="circle"></area>
         <p className="aboutParagraph">
         I was born and raised in Nacogdoches, Texas. After graduating from Woden High School,
         I joined the U.S. Coast Guard. In 2003, I served in Operation Iraqi Freedom with 

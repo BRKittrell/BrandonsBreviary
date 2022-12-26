@@ -2,11 +2,21 @@
     background-color: blue;
     display: flex;
     width: auto;
-    /* align-items: center; */
     justify-items: center;
 }
 
+.heading{
+    font-family: 'Aboreto', cursive;
+    margin: auto;
+    color: #BF0603;
+}
+
 .navLink{
-    margin-right: 50px;
+    padding:1rem
+}
+
+.navbardiv{
+text-align: center;
+background-color: #001B2E;
 }
 

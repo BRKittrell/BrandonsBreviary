@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Outfit:wght@200&display=swap');
 html{
-    background-color: #2F2D2E;
+    background-color:
+     /* #17183B */
+     #8491A3
 }
 
-.heading{
-    font-family: 'Aboreto', cursive;
-    margin: auto;
-    color: #BF0603;
-    display: flexbox;
-    
-}
+
 
 .navLink{
     font-family: 'Outfit', sans-serif;
+    font-size: 22px;
 color: aliceblue;
 }
 
 a {
     text-decoration: none;
 }
+
+a:hover{
+    color:  #BF0603;
+    outline-color: solid black;
+    font-weight:300;
+}
+

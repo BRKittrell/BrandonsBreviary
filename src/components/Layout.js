@@ -6,7 +6,6 @@ const Layout = () => {
   return (
     <>
       <div className="headingDiv">
-        <h1 className="heading">Brandon's Resume</h1>
         <Navbar />
       </div>
       <div>

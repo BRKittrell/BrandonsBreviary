@@ -15,6 +15,7 @@ import Layout from "./components/Layout";
 import "./styling/about.css"
 import "./styling/layout.css"
 import "./styling/navbar.css"
+import "./styling/videos.css"
 
 function App() {
   return (
