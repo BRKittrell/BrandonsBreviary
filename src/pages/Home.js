@@ -3,8 +3,8 @@ import React from "react";
 const Home = () =>{
 return(
 <div>
-    <p>I built this application using React to display my skills.</p>
-    </div>
+<h1>Welcome to my portfolio page!</h1>
+</div>
 )
 }
 

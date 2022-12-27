@@ -16,6 +16,7 @@ import "./styling/about.css"
 import "./styling/layout.css"
 import "./styling/navbar.css"
 import "./styling/videos.css"
+import "./styling/visitors.css"
 
 function App() {
   return (

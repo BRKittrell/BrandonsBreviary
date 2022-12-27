@@ -8,15 +8,16 @@
 }
 
 .navLink{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: .25rem;
+    padding-right: .25rem;
+    margin: 1rem
 }
 
 .navbardiv{
-    text-align: center;
-    border-radius: 25px;
-    /* background-color: #001B2E; */
-    width: auto;
+    border-radius: 10px;
+    border-bottom: solid aliceblue;
+    border-top: solid aliceblue;
+    padding: .5rem;
 }
 
 

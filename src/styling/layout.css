@@ -1,4 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito&family=Outfit:wght@200&display=swap');
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color:  #BF0603;
+    outline-color: solid black;
+    font-weight:300;
+}
+
+/* body{
+    text-align: center;
+} */
+button{
+    color: aliceblue;
+    font-family: 'Nunito', sans-serif;
+    background-color: #BF0603;
+    font-size: 22px;
+    margin: .5rem;
+}
+
+button:hover{
+cursor: pointer;
+color:#BF0603;
+background-color: aliceblue;
+}
+
+div{
+    color: aliceblue;
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif;  
+    display:flexbox;
+    text-align: center; 
+}
+
+.videoDiv{
+    padding: 1rem;
+    text-align: center;
+}
+
+.iframe{
+    padding: 1rem;
+}
+
+.extermalLink{
+    text-decoration-line: underline;
+    text-align: center;
+    color: aliceblue;
+}
+.extermalLink:hover{
+    color: #BF0603
+}
+
+h1{
+    color:#BF0603;
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+    font-size: 30px;
+}
+
 html{
     background-color:
      #001B2E
@@ -10,14 +69,16 @@ html{
 color: aliceblue;
 }
 
-a {
-    text-decoration: none;
-}
+input{
+    border-radius: 5px;
+    width: 15rem
+    }
 
-a:hover{
-    color:  #BF0603;
-    outline-color: solid black;
-    font-weight:300;
+label{
+    color: aliceblue;
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;    
 }
 
 p{
@@ -25,4 +86,15 @@ p{
     font-size: 22px;
     font-family: 'Nunito', sans-serif;
     text-align: center;
+}
+
+select{
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px
+  };
+
+textarea{
+    resize: none;
 }
