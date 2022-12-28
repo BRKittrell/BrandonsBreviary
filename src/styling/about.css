@@ -2,7 +2,8 @@
 
 .aboutDiv{
     align-self: center;
-}
+   }
+   
 .aboutParagraph{
     color: aliceblue;
     font-size: 22px;
@@ -10,4 +11,16 @@
     text-align: justify;
     margin: auto;
     padding: 2rem;
+}
+
+.swiper {
+    width: 600px;
+    height: 600px;
+    width: 50%;
+    display:block;
+  }
+
+  .swiperImage{
+    height: 50%;
+    width: 50%;
 }
