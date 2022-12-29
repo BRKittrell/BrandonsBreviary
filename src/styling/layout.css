@@ -8,9 +8,6 @@ a:hover{
     font-weight:300;
 }
 
-/* body{
-    text-align: center;
-} */
 button{
     color: aliceblue;
     font-family: 'Nunito', sans-serif;
@@ -47,11 +44,12 @@ div{
     text-align: center;
     color: aliceblue;
 }
+
 .extermalLink:hover{
     color: #BF0603
 }
 
-h1{
+h1, h2, h3, h4{
     color:#BF0603;
     text-align: center;
     font-family: 'Aboreto', cursive;

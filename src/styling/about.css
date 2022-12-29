@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito&family=Outfit:wght@200&display=swap');
 
 .aboutDiv{
-    align-self: center;
-   }
-   
+    text-align: center;
+}
 .aboutParagraph{
     color: aliceblue;
     font-size: 22px;
     font-family: 'Nunito', sans-serif;
     text-align: justify;
     margin: auto;
-    padding: 2rem;
+    width: 50rem;
 }
 
 .swiper {
@@ -23,4 +22,9 @@
   .swiperImage{
     height: 50%;
     width: 50%;
+}
+
+.swiper-slide{
+    width: auto;
+    height: auto;
 }

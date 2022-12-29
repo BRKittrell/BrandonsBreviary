@@ -22,12 +22,10 @@ const Slider = () => {
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
       className="Swiper"
     >
   
-      <SwiperSlide><p>golf</p><img className='swiperImage' src={golf} alt=''></img></SwiperSlide>
+      <SwiperSlide><p>It's corn!</p><img className='swiperImage' src={golf} alt=''></img></SwiperSlide>
       <SwiperSlide>Slide 3</SwiperSlide>
       <SwiperSlide>Slide 4</SwiperSlide>
       ...
