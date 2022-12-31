@@ -4,7 +4,9 @@ import { Routes, Route} from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import PageNotFound from "./pages/PageNotFound";
+import Play from "./pages/Play";
 import Projects from "./pages/Projects";
+import Resume from "./pages/Resume";
 import Videos from "./pages/Videos";
 import Visitors from "./pages/Visitors";
 //Components
@@ -16,6 +18,7 @@ import "./styling/layout.css"
 import "./styling/navbar.css"
 import "./styling/videos.css"
 import "./styling/visitors.css"
+import "./styling/resume.css"
 
 function App() {
   return (
@@ -24,7 +27,9 @@ function App() {
           <Route element={<Layout/>}>
           <Route path="contact" element={<Contact />} />
           <Route path="/" element={<Home />} />
+          <Route path="/play" element={<Play />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/resume" element={<Resume/>} />
           <Route path="/videos" element={<Videos />} />
           <Route path="/visitors" element={<Visitors />} />
           <Route path="*" element={<PageNotFound />} />          

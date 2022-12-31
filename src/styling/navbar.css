@@ -5,6 +5,9 @@
     color: #BF0603;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    position:sticky;
+    top: 0%;
+    background-color: #001B2E;
 }
 
 .navLink{
@@ -18,7 +21,9 @@
     border-bottom: solid aliceblue;
     border-top: solid aliceblue;
     padding: .5rem;
-    top: 0;
+    background-color: #001B2E;
 }
+
+
 
 
