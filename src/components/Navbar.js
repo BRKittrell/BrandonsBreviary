@@ -15,16 +15,16 @@ const Navbar = () => {
           Resume
         </Link>
         <Link to="/contact" className="navLink">
-          Contact
-        </Link>
-        <Link to="/play" className="navLink">
-          Play
+          Email Me
         </Link>
         <Link to="/projects" className="navLink">
           Projects
         </Link>
         <Link to="/videos" className="navLink">
           Videos
+        </Link>
+        <Link to="/play" className="navLink">
+          Play
         </Link>
         <Link to="/visitors" className="navLink">
           Visitors

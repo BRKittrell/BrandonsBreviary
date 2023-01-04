@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 // import 'swiper/css'
 // import 'swiper/css/navigation'
-import golf from '../images/corn.jpeg'
+import corn from '../images/corn.jpeg'
 // Import Swiper styles
 // import 'swiper/css';
 // import 'swiper/css/navigation';
@@ -25,7 +25,7 @@ const Slider = () => {
       className="Swiper"
     >
   
-      <SwiperSlide><p>It's corn!</p><img className='swiperImage' src={golf} alt=''></img></SwiperSlide>
+      <SwiperSlide><p>It's corn!</p><img className='swiperImage' src={corn} alt=''></img></SwiperSlide>
       <SwiperSlide>Slide 3</SwiperSlide>
       <SwiperSlide>Slide 4</SwiperSlide>
       ...
