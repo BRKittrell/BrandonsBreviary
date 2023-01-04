@@ -1,0 +1,10 @@
+.construction{
+    display: inline-block;
+    width: 40rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10rem;
+    border: 1rem solid white;
+    border-radius: 25px;
+    background-color: darkorange;
+    margin-top: 2rem;
+}

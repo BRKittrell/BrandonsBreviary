@@ -1,8 +1,9 @@
 import React from "react";
+import UnderConstruction from "../components/UnderConstruction";
 
 const Play = () =>{
     return (
-        <h1> Play </h1>
+      <UnderConstruction/>
     )
 }
 

@@ -19,6 +19,7 @@ import "./styling/navbar.css"
 import "./styling/videos.css"
 import "./styling/visitors.css"
 import "./styling/resume.css"
+import "./styling/construction.css"
 
 function App() {
   return (
