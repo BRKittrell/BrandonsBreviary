@@ -4,12 +4,12 @@
 /node_modules
 /.pnp
 .pnp.js
+pacakage-lock.json
 
 # testing
 /coverage
 
 # production
-/build
 
 # misc
 .DS_Store
