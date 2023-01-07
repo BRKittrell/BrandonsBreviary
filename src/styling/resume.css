@@ -1,4 +1,7 @@
 .resumeContainer{
     padding: 2rem;
     overflow: scrollbar;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

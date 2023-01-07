@@ -49,6 +49,7 @@ div{
     color: #BF0603
 }
 
+
 h1, h2, h3, h4{
     color:#BF0603;
     text-align: center;
@@ -58,19 +59,32 @@ h1, h2, h3, h4{
 
 html{
     background-color:
-     #001B2E
+     /* #001B2E */
+     /* #2081C3 */
+     #2E4057
 }
 
-.navLink{
-    font-family: 'Outfit', sans-serif;
-    font-size: 30px;
-color: aliceblue;
+.icon{
+    color: aliceblue;
+    
+}
+.icon:hover{
+    color: #BF0603;
+}
+
+#iconDiv{
+    display: grid;
+    color: aliceblue;
+    position: fixed;
+    margin-top: 15rem;
+    margin-left: 1rem;
+    font-size: 3rem;
 }
 
 input{
     border-radius: 5px;
     width: 15rem
-    }
+}
 
 label{
     color: aliceblue;
@@ -79,6 +93,11 @@ label{
     text-align: center;    
 }
 
+.navLink{
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+}
 p{
     color: aliceblue;
     font-size: 22px;

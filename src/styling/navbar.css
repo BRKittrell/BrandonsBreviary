@@ -5,15 +5,14 @@
     color: #BF0603;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    position:sticky;
-    top: 0%;
-    background-color: #001B2E;
+
 }
 
 .navLink{
     padding-left: .25rem;
     padding-right: .25rem;
-    margin: 1rem
+    margin: 1rem;
+    position: relative;
 }
 
 .navbardiv{
@@ -21,8 +20,9 @@
     border-bottom: solid aliceblue;
     border-top: solid aliceblue;
     padding: .5rem;
-    background-color: #001B2E;
 }
+
+
 
 
 

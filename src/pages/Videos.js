@@ -5,7 +5,6 @@ const Videos = () =>{
 
 return(
     <div>
-    <h1>Videos</h1>
     <p> Please enjoy a sampling of my YouTube Channel, <a  href="https://www.youtube.com/channel/UC-0Si-TWcB06I6qkmGeTzaQ" target="_blank" rel="noreferrer"><em className="externalLink">The PERN Pit!</em></a></p>
     {/* <p>What do you want to learn about?</p> */}
     {/* <select>
