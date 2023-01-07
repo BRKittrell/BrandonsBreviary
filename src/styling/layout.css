@@ -14,6 +14,8 @@ button{
     background-color: #BF0603;
     font-size: 22px;
     margin: .5rem;
+    border-radius: 10px;
+
 }
 
 button:hover{
@@ -50,7 +52,7 @@ div{
 }
 
 
-h1, h2, h3, h4{
+h1{
     color:#BF0603;
     text-align: center;
     font-family: 'Aboreto', cursive;

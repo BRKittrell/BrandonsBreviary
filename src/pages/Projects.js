@@ -5,9 +5,9 @@ const Projects = () => {
     <div>
      
       <div>
-        <p>
-          Collaborative Projects:
-          </p>
+        <h1>
+          Collaborative Projects
+          </h1>
           <p>
           <a
           href="https://github.com/Blue-Digital"
@@ -26,7 +26,7 @@ const Projects = () => {
         </a>
           : A themed e-commerce site.
         </p>
-        <p>
+        <h1>
         To view my repositories, please visit my{" "}
         <a
           href="https://github.com/BRKittrell"
@@ -36,7 +36,7 @@ const Projects = () => {
           <em className="externalLink">Github</em>
         </a>
         .
-      </p>
+      </h1>
       </div>
     </div>
   );
