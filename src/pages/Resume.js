@@ -10,7 +10,7 @@ const Resume = () => {
       className="resume"
       width="800px"
       height="2000px"
-        src="https://drive.google.com/drive/folders/1JlqQKMyZ6P_a26SnnEUravvnM8tLUP0I"
+        src="https://drive.google.com/file/d/1Iv5uwzZvhARoXITR2FztoR6AJNJrTBou/view?usp=sharing"
       ></iframe>
       </div>
  
