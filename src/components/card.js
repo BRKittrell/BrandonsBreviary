@@ -17,7 +17,7 @@ const Card = () => {
             <li>Current Company: Galvanize by Hack Reactor</li>
             <li>Current Position: Software Engineer Immersive Resident</li>
             <li>Education 1: University of Arkansas - Business Management</li>
-            <li>Education 2: Penn State - Sofware Engineering (Ongoing)</li>
+            <li>Education 2: Penn State - Software Engineering (Ongoing)</li>
             <li>Military: U.S. Coast Guard Veteran</li>
             <li>Hometown: Nacogdoches, Texas</li>
             <li>Likes: College Football, Golf, Outdoors</li>
