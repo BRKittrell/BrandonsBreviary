@@ -8,6 +8,7 @@ const Home = () => {
 
     <div className="homeDiv">
       <Card/>
+      <br></br>
       <About/>
     </div>
   );
