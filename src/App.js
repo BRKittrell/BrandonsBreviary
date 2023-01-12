@@ -22,6 +22,7 @@ import "./styling/visitors.css"
 import "./styling/resume.css"
 import "./styling/construction.css"
 import "./styling/laugh.css"
+import "./styling/heist.css"
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
           <Route element={<Layout/>}>
           <Route path="contact" element={<Contact />} />
           <Route path="/" element={<Home />} />
-          <Route path="/joke" element={<JustForLaughs/>} />
+          <Route path="/laugh" element={<JustForLaughs/>} />
           <Route path="/play" element={<Play />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume/>} />

@@ -1,0 +1,52 @@
+.comboGuess{
+border: solid black .25rem;
+display: inline-block;    
+width: 2rem;
+background-color: #000000;
+color:#77f1b4;
+justify-content: center;
+font-weight: 1rem;
+font-size: 2rem;
+text-align: center;
+margin: .2rem;
+}
+
+.guessDisplay{
+    display: inline-block;
+}
+.heistDiv{
+    display: inline-block;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.keypad{
+    background-color: #FAF0CA;
+    width: 20rem;
+    border-radius: 25px;
+    border: solid 10px #77f1b4;
+    border-style: groove;
+}
+
+.heistButton{
+    background-color: #77f1b4;
+    color: #000000;
+    margin: .25rem;
+    border-radius: 25px;
+    width: 3rem
+}
+.heistButton:hover{
+    background-color: white;
+    color: black;
+}
+
+.keypadButton{
+    background-color: #77f1b4;
+    color: #000000;
+    margin: .25rem;
+    border-radius: 25px;
+}
+.keypadButton:hover{
+background-color: #000000;
+color: #77f1b4;
+}

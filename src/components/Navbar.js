@@ -22,7 +22,7 @@ const Navbar = () => {
         <Link to="/videos" className="navLink">
           Videos
         </Link>
-        <Link to="/joke" className="navLink">
+        <Link to="/laugh" className="navLink">
           Laugh
         </Link>
         <Link to="/play" className="navLink">
