@@ -2,18 +2,20 @@ import React from "react";
 
 const Resume = () => {
   return (
-<div className="resumeContainer">
-    <a href="https://drive.google.com/drive/folders/1JlqQKMyZ6P_a26SnnEUravvnM8tLUP0I" download='GFG'>
-    {/* <button type="button">Download</button> */}
+    <div className="resumeContainer">
+      <a
+        href="https://docs.google.com/document/d/1HI4MHzuOKxgUNG_nrBDfiwdJikVuVU2N/edit?usp=sharing&ouid=109943883740572144728&rtpof=true&sd=true"
+        download="GFG"
+      >
+        {/* <button type="button">Download</button> */}
       </a>
       <iframe
-      className="resume"
-      width="800px"
-      height="2000px"
-        src="https://drive.google.com/file/d/1Iv5uwzZvhARoXITR2FztoR6AJNJrTBou/view?usp=sharing"
+        src="https://drive.google.com/file/d/1HI4MHzuOKxgUNG_nrBDfiwdJikVuVU2N/preview"
+        width="800"
+        height="2000"
+        allow="autoplay"
       ></iframe>
-      </div>
- 
+    </div>
   );
 };
 
