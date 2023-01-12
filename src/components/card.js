@@ -20,7 +20,7 @@ const Card = () => {
             <li>Education 2: Penn State - Software Engineering (Ongoing)</li>
             <li>Military: U.S. Coast Guard Veteran</li>
             <li>Hometown: Nacogdoches, Texas</li>
-            <li>Likes: College Football, Golf, Outdoors</li>
+            <li>Likes: Baseball, College Football, Golf, Outdoors</li>
             <li>Superpowers: Husband, Dad, Handyman</li>
           </ul>
         </div>
