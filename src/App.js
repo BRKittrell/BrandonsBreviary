@@ -28,8 +28,8 @@ function App() {
   return (
       <>
         <Routes>
-          <Route element={<Layout/>}>
           <Route path="contact" element={<Contact />} />
+          <Route element={<Layout/>}>
           <Route path="/" element={<Home />} />
           <Route path="/laugh" element={<JustForLaughs/>} />
           <Route path="/play" element={<Play />} />
