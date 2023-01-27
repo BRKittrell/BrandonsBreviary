@@ -1,20 +1,21 @@
+require('dotenv').config();
+
 const express = require('express');
 const app = express();
-app.use(express.json());
 
 const {Pool}= require('pg');
 const PORT = process.env.port || 5050;
 
-
 const cors = require('cors');
 app.use(cors());
 
-require('dotenv').config();
+app.use(express.json());
 
-const pool = new Pool({
-connectionString: process.env.Database_URL
+const dbConfig = {
+    connectionString: process.env.Visitor_DB_URL
+}
 
-})
+const pool = new Pool(dbConfig)
 
 app.post('/visitors', async (req,res) =>{
     try{

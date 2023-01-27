@@ -4,3 +4,5 @@ CREATE TABLE visitors (
     visitor_org TEXT,
     visitor_comment VARCHAR (200)
 );
+
+INSERT INTO visitors()
