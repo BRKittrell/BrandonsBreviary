@@ -5,4 +5,4 @@ CREATE TABLE visitors (
     visitor_comment VARCHAR (200)
 );
 
-INSERT INTO visitors()
+INSERT INTO visitors(visitor_name, visitor_org, visitor_comment) VALUES ('brandon', 'galvanize', 'nice site, bro')
