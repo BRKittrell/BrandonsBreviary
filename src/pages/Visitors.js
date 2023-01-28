@@ -25,12 +25,12 @@ const Visitors = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try{
-      const visitorPost = {visitorName, company, comment};
+      const body = {visitorName, company, comment};
       const response = await fetch ("https://brandons-resume-server.onrender.com/visitors",{
         method: "POST",
         headers: {"Content-Type": "application/json"},
-        body: JSON.stringify(visitorPost)
-      })
+        body: JSON.stringify(body)
+      });
       console.log(response);
       clearForm()
     }catch (err){
@@ -54,16 +54,16 @@ const Visitors = () => {
           <input
           required
             type="text"
-            onChange={handleVisitorName}
             value={visitorName}
+            onChange={handleVisitorName}
           ></input>
           <br></br>
           <label>Company</label>
           <br></br>
           <input
             type="text" 
-            onChange={handleCompany} 
             value={company}
+            onChange={handleCompany} 
             ></input>
           <br></br>
           <label>Leave A Message</label>
@@ -73,8 +73,8 @@ const Visitors = () => {
             rows="3"
             cols="50"
             maxLength="150"
-            onChange={handleComment}
             value={comment}
+            onChange={handleComment}
           ></textarea>
           <br></br>
           <button type="submit">Submit</button>
