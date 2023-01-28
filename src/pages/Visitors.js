@@ -7,7 +7,7 @@ const Visitors = () => {
 
   const [visitorName, setVisitorName] = useState("");
   const [company, setCompany] = useState("");
-  const [note, setNote] = useState("");
+  const [comment, setComment] = useState("");
 
   const handleVisitorName = (e) => {
     setVisitorName(e.target.value);
@@ -17,20 +17,30 @@ const Visitors = () => {
     setCompany(e.target.value);
   };
 
-  const handleNote = (e) => {
-    setNote(e.target.value);
+  const handleComment = (e) => {
+    setComment(e.target.value);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    clearForm()
-    console.log(visitorName,company,note);
+    try{
+      const visitorPost = {visitorName, company, comment};
+      const response = fetch ("https://brandons-resume-server.onrender.com/visitors",{
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify(visitorPost)
+      })
+      console.log(response);
+      clearForm()
+    }catch (err){
+      console.log(err.message)
+    }
   }
 
   const clearForm = () =>{
     setVisitorName("");
     setCompany("");
-    setNote("")
+    setComment("")
   }
 
   return (
@@ -62,8 +72,8 @@ const Visitors = () => {
             rows="3"
             cols="50"
             maxLength="150"
-            onChange={handleNote}
-            value={note}
+            onChange={handleComment}
+            value={comment}
           ></textarea>
           <br></br>
           <button type="submit">Submit</button>
