@@ -76,9 +76,8 @@ app.delete('/pets/:id', async (req, res) => {
     }catch{
         res.send(error);
     }
-
 })
 
-app.listen(process.env.PORT, () =>{
+app.listen(PORT, () =>{
     console.log('Listening port:' + PORT)
 })
