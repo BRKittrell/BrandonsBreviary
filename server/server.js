@@ -32,7 +32,7 @@ app.get('/visitors', async (req, res) => {
     try {
         const {rows} = await pool.query('SELECT * FROM visitors');
         res.send(rows);
-        console.log("success")
+        console.log("Get all successful.")
     } catch (err){
         res.send(err.message);
     }
@@ -42,9 +42,10 @@ app.get('/visitors/:id', async (req, res) => {
     try {
         const {id} = req.params
         const {rows} = await pool.query('SELECT * FROM visitors WHERE visitor_number = $1', [id])
-        res.send(rows)  
-    }catch (error){
-        console.error(error);
+        res.send(rows) 
+        console.log("Get one successful.")
+    }catch (err){
+        console.log(err.message);
     }
 })
 
