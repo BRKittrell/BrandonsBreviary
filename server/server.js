@@ -40,43 +40,34 @@ app.get('/visitors', async (res) => {
 app.get('/visitors/:id', async (req, res) => {
     try {
         const {id} = req.params
-        const {rows} = await pool.query('SELECT * FROM the_pets WHERE pet_id = $1', [id])
+        const {rows} = await pool.query('SELECT * FROM visitors WHERE visitor_number = $1', [id])
         res.send(rows)  
     }catch (error){
         console.error(error);
     }
 })
 
-app.post('/pets', async (req, res) => {
-    try{
-        const {name, age, kind} = req.body
-        const {rows} = await pool.query('INSERT INTO the_pets(name, age, kind) VALUES($1, $2, $3)', [name, age, kind])
-        res.send(rows) 
-    }catch (error){
-        res.send(error);
-}
-})
 
-app.patch('/pets/:id', async (req, res) => {
-    try{
-        const {id} = req.params
-        const {name, age, kind} = req.body
-        const {rows} = await pool.query('UPDATE the_pets SET name = $1, age = $2, kind = $3 WHERE pet_id = $4', [name, age, kind, id])
-        res.send(rows);
-    }catch (error){ 
-        res.send(error);
-}
-})
+// app.patch('/pets/:id', async (req, res) => {
+//     try{
+//         const {id} = req.params
+//         const {name, age, kind} = req.body
+//         const {rows} = await pool.query('UPDATE the_pets SET name = $1, age = $2, kind = $3 WHERE pet_id = $4', [name, age, kind, id])
+//         res.send(rows);
+//     }catch (error){ 
+//         res.send(error);
+// }
+// })
 
-app.delete('/pets/:id', async (req, res) => {
-    const {id} = req.params
-    try{
-        const {rows} = await pool.query('DELETE FROM the_pets WHERE pet_id = $1', [id])
-        res.send(rows)
-    }catch{
-        res.send(error);
-    }
-})
+// app.delete('/pets/:id', async (req, res) => {
+//     const {id} = req.params
+//     try{
+//         const {rows} = await pool.query('DELETE FROM the_pets WHERE pet_id = $1', [id])
+//         res.send(rows)
+//     }catch{
+//         res.send(error);
+//     }
+// })
 
 app.listen(PORT, () =>{
     console.log('Listening port:' + PORT)
