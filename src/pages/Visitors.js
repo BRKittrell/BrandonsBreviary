@@ -15,6 +15,7 @@ const Visitors = () => {
 
   const handleCompany = (e) => {
     setCompany(e.target.value);
+    console.log(e.target.value)
   };
 
   const handleComment = (e) => {
@@ -25,7 +26,7 @@ const Visitors = () => {
     e.preventDefault();
     try{
       const visitorPost = {visitorName, company, comment};
-      const response = fetch ("https://brandons-resume-server.onrender.com/visitors",{
+      const response = await fetch ("https://brandons-resume-server.onrender.com/visitors",{
         method: "POST",
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify(visitorPost)
