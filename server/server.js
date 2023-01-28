@@ -28,7 +28,7 @@ app.post('/visitors', async (req,res) =>{
     }
 })
 
-app.get('/visitors', async (res) => {
+app.get('/visitors', async (req, res) => {
     try {
         const {rows} = await pool.query('SELECT * FROM visitors');
         res.send(rows);
