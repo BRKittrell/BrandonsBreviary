@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS visitors;
+
 CREATE TABLE visitors (
     visitor_number serial PRIMARY KEY,
     visitor_name TEXT,
@@ -5,4 +7,6 @@ CREATE TABLE visitors (
     visitor_comment VARCHAR (200)
 );
 
-INSERT INTO visitors(visitor_name, visitor_org, visitor_comment) VALUES ('brandon', 'galvanize', 'nice site, bro')
+INSERT INTO visitors(visitor_name, visitor_org, visitor_comment) VALUES 
+('brandon', 'galvanize', 'nice site, bro'),
+('bethannie', 'uscg', 'wow... impressive')

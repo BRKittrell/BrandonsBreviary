@@ -21,8 +21,9 @@ const pool = new Pool(dbConfig)
 app.post('/visitors', async (req,res) =>{
     try{
         const {visitor_name, visitor_org, visitor_comment} = req.body;
-        const {rows} = await pool.query('INSERT INTO visitors(visitor_name, visitor_org, visitor_comment) VALUES ($1, $2, $3)', [visitor_name, visitor_org, visitor_comment]);
+        const {rows} = await pool.query('INSERT INTO visitors (visitor_name, visitor_org, visitor_comment) VALUES ($1, $2, $3)', [visitor_name, visitor_org, visitor_comment]);
         res.send(rows)
+        console.log("Post successful.")
     }catch (err){
         res.send(err.message)
     }
@@ -38,6 +39,7 @@ app.get('/visitors', async (req, res) => {
     }
 })
 
+
 app.get('/visitors/:id', async (req, res) => {
     try {
         const {id} = req.params
@@ -49,27 +51,32 @@ app.get('/visitors/:id', async (req, res) => {
     }
 })
 
+/*
 
-// app.patch('/pets/:id', async (req, res) => {
-//     try{
-//         const {id} = req.params
-//         const {name, age, kind} = req.body
-//         const {rows} = await pool.query('UPDATE the_pets SET name = $1, age = $2, kind = $3 WHERE pet_id = $4', [name, age, kind, id])
-//         res.send(rows);
-//     }catch (error){ 
-//         res.send(error);
-// }
-// })
+Routes not currently in use.
 
-// app.delete('/pets/:id', async (req, res) => {
-//     const {id} = req.params
-//     try{
-//         const {rows} = await pool.query('DELETE FROM the_pets WHERE pet_id = $1', [id])
-//         res.send(rows)
-//     }catch{
-//         res.send(error);
-//     }
-// })
+app.patch('/visitors/:id', async (req, res) => {
+    try{
+        const {id} = req.params
+        const {visitor_name, visitor_org, visitor_comment} = req.body
+        const {rows} = await pool.query('UPDATE visitors SET name = $1, age = $2, kind = $3 WHERE visitor_number = $4', [visitor_name, visitor_org, visitor_comment])
+        res.send(rows);
+    }catch (error){ 
+        res.send(error);
+}
+})
+
+app.delete('/visitors/:id', async (req, res) => {
+    const {id} = req.params
+    try{
+        const {rows} = await pool.query('DELETE FROM visitors_db WHERE visitor_number = $1', [id])
+        res.send(rows)
+    }catch{
+        res.send(error);
+    }
+})
+
+*/
 
 app.listen(PORT, () =>{
     console.log('Listening port:' + PORT)
