@@ -32,6 +32,7 @@ app.get('/visitors', async (req, res) => {
     try {
         const {rows} = await pool.query('SELECT * FROM visitors');
         res.send(rows);
+        console.log("success")
     } catch (err){
         res.send(err.message);
     }
