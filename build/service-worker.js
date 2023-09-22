@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/BRKittrell/BrandonsBreviary/precache-manifest.1da7d7c4eaa42054efde8e2eb3a0b5bf.js"
+  "/BRKittrell/BrandonsBreviary/precache-manifest.799bf0fd4879da430af092fbd664033b.js"
 );
 
 workbox.clientsClaim();
