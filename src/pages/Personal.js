@@ -13,32 +13,32 @@ const Personal = () =>{
       <>
         <div className="personalDiv">
         <div className="personalImageDiv">
-          <img class="personalImages" src={CSEL}/>
+          <img class="personalImages" src={CSEL} alt="CSEL"/>
           <p>Command Senior Enlisted Leader, 9th Coast Guard District</p>
         </div>
 
         <div className="personalImageDiv">
-          <img class="personalImages" src={fishing}/>
+          <img class="personalImages" src={fishing} alt="fishing"/>
           <p>My family's fishing trip in Ketchikan, Alaska.</p>
         </div>
        
         <div className="personalImageDiv">
-          <img class="personalImages" src={OIF}/>
+          <img class="personalImages" src={OIF} alt="OIF"/>
           <p>Operation Iraqi Freedom, 2003</p>
         </div>
 
         <div className="personalImageDiv">
-          <img class="personalImages" src={PSUMSUGame}/>
+          <img class="personalImages" src={PSUMSUGame} alt="PSUvMSU"/>
           <p>Penn State vs. Michigan State Football</p>
         </div>
     
         <div className="personalImageDiv">
-          <img class="personalImages" src={RickieFowler}/>
+          <img class="personalImages" src={RickieFowler} alt="RickieFowler"/>
           <p>My daughter with Rickie Fowler at the Rocket Mortgage Classic. He won!</p>
         </div>
          
         <div className="personalImageDiv">
-          <img class="personalImages" src={Roo}/>
+          <img class="personalImages" src={Roo} alt="dog"/>
           <p>We love our Aussie, Roo, too!</p>
         </div>
 

@@ -3,13 +3,10 @@ import { Routes, Route} from "react-router-dom";
 //Pages
 import Home from "./pages/Home";
 import DegreeAndCertificate from "./pages/DegreeAndCertificate";
-import JustForLaughs from "./pages/Laugh";
 import PageNotFound from "./pages/PageNotFound";
 import Play from "./pages/Personal";
-import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
-import Videos from "./pages/Videos";
-import Visitors from "./pages/Visitors";
+
 //Components
 import Layout from "./components/Layout";
 //Styling
@@ -17,12 +14,7 @@ import "./styling/about.css"
 import "./styling/home.css"
 import "./styling/layout.css"
 import "./styling/navbar.css"
-import "./styling/videos.css"
-import "./styling/visitors.css"
 import "./styling/resume.css"
-import "./styling/construction.css"
-import "./styling/laugh.css"
-import "./styling/heist.css"
 import "./styling/personal.css"
 
 function App() {

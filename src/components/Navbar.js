@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { MdOutlineMailOutline } from 'react-icons/md';
-import { FaLinkedin, FaYoutube, FaGithubSquare } from 'react-icons/fa'
+import { FaLinkedin} from 'react-icons/fa'
 
 const Navbar = () => {
   return (

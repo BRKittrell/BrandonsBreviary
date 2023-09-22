@@ -1,5 +1,5 @@
 import React from "react";
-import Slideshow from "../components/Slider-About";
+
 
 const About = () => {
 
