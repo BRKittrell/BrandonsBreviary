@@ -7,7 +7,7 @@ const About = () => {
     <div className="aboutDiv">
       <h1>Professional Life</h1>
       <p className="aboutParagraph">
-        I joined the U.S. Coast Guard in 1999 and served in Texas, California, Virginia, Michigan, and Ohio.
+        I joined the U.S. Coast Guard in 1999 and served in Alaska, California, Michigan, Ohio, Texas, and Virginia.
         I advanced to Senior Chief Petty Officer (E-8) in 2015 and retired from active duty in 2022 after 23 years.
         While in the Coast Guard, I earned many certifications and an Associates of Arts in Business Management.
         When I retired, I completed a full-stack software engineering bootcamp and returned to college in pursuit of a Bachelors of Science in Marketing.
