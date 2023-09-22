@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a6de2316.css",
-    "main.js": "/static/js/main.0d564d84.js",
+    "main.js": "/static/js/main.00243989.js",
     "static/js/787.259c9b70.chunk.js": "/static/js/787.259c9b70.chunk.js",
     "static/media/PSUMSUGame.jpeg": "/static/media/PSUMSUGame.5cf2d32bca8dc7925344.jpeg",
     "static/media/RickieFowler.jpeg": "/static/media/RickieFowler.e00c264209a582d95f83.jpeg",
@@ -13,11 +13,11 @@
     "static/media/OIF.jpeg": "/static/media/OIF.abe67925a0c3628e803f.jpeg",
     "index.html": "/index.html",
     "main.a6de2316.css.map": "/static/css/main.a6de2316.css.map",
-    "main.0d564d84.js.map": "/static/js/main.0d564d84.js.map",
+    "main.00243989.js.map": "/static/js/main.00243989.js.map",
     "787.259c9b70.chunk.js.map": "/static/js/787.259c9b70.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6de2316.css",
-    "static/js/main.0d564d84.js"
+    "static/js/main.00243989.js"
   ]
 }
