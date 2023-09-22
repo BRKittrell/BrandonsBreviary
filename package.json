@@ -46,5 +46,14 @@
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BRKittrell/BrandonsBreviary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BRKittrell/BrandonsBreviary/issues"
+  },
+  "homepage": "https://github.com/BRKittrell/BrandonsBreviary#readme"
 }
