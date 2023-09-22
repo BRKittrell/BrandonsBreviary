@@ -1,23 +1,23 @@
 {
-  "files": {
-    "main.css": "/static/css/main.a6de2316.css",
-    "main.js": "/static/js/main.00243989.js",
-    "static/js/787.259c9b70.chunk.js": "/static/js/787.259c9b70.chunk.js",
-    "static/media/PSUMSUGame.jpeg": "/static/media/PSUMSUGame.5cf2d32bca8dc7925344.jpeg",
-    "static/media/RickieFowler.jpeg": "/static/media/RickieFowler.e00c264209a582d95f83.jpeg",
-    "static/media/Roo.jpeg": "/static/media/Roo.9121cb45b6afa2ca3fa8.jpeg",
-    "static/media/AlaskaFish.jpeg": "/static/media/AlaskaFish.7475931cf2f17d52a8b9.jpeg",
-    "static/media/LI_Pic.jpeg": "/static/media/LI_Pic.61e59ded85ad70f4e8f2.jpeg",
-    "static/media/corn.jpeg": "/static/media/corn.244024a7acbfe3ea4ab2.jpeg",
-    "static/media/CSEL.jpeg": "/static/media/CSEL.a8f89382f463bb6f6db9.jpeg",
-    "static/media/OIF.jpeg": "/static/media/OIF.abe67925a0c3628e803f.jpeg",
-    "index.html": "/index.html",
-    "main.a6de2316.css.map": "/static/css/main.a6de2316.css.map",
-    "main.00243989.js.map": "/static/js/main.00243989.js.map",
-    "787.259c9b70.chunk.js.map": "/static/js/787.259c9b70.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.a6de2316.css",
-    "static/js/main.00243989.js"
-  ]
+  "main.css": "/static/css/main.94a7d313.chunk.css",
+  "main.js": "/static/js/main.967ea4cf.chunk.js",
+  "main.js.map": "/static/js/main.967ea4cf.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.35de78a9.js",
+  "runtime~main.js.map": "/static/js/runtime~main.35de78a9.js.map",
+  "static/js/2.f17f9021.chunk.js": "/static/js/2.f17f9021.chunk.js",
+  "static/js/2.f17f9021.chunk.js.map": "/static/js/2.f17f9021.chunk.js.map",
+  "static/js/3.d8ac33f5.chunk.js": "/static/js/3.d8ac33f5.chunk.js",
+  "static/js/3.d8ac33f5.chunk.js.map": "/static/js/3.d8ac33f5.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.ed1f1a4abf2f20f6849fe1232529f2cb.js": "/precache-manifest.ed1f1a4abf2f20f6849fe1232529f2cb.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.94a7d313.chunk.css.map": "/static/css/main.94a7d313.chunk.css.map",
+  "static/media/AlaskaFish.jpeg": "/static/media/AlaskaFish.704c8b6f.jpeg",
+  "static/media/CSEL.jpeg": "/static/media/CSEL.fd718911.jpeg",
+  "static/media/LI_Pic.jpeg": "/static/media/LI_Pic.089c0d67.jpeg",
+  "static/media/OIF.jpeg": "/static/media/OIF.6ba6a63a.jpeg",
+  "static/media/PSUMSUGame.jpeg": "/static/media/PSUMSUGame.e56ad5f1.jpeg",
+  "static/media/RickieFowler.jpeg": "/static/media/RickieFowler.789a89f6.jpeg",
+  "static/media/Roo.jpeg": "/static/media/Roo.52ce3db5.jpeg",
+  "static/media/corn.jpeg": "/static/media/corn.35ac6a61.jpeg"
 }
