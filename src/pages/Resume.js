@@ -10,7 +10,7 @@ const Resume = () => {
         {/* <button type="button">Download</button> */}
       </a>
       <iframe
-        src="https://drive.google.com/file/d/1HI4MHzuOKxgUNG_nrBDfiwdJikVuVU2N/preview"
+        src="https://drive.google.com/file/d/1K2T8q5eEytfhZzNBL6qTb5KVV-3hCQhD/preview"
         width="800"
         height="2000"
         allow="autoplay"

@@ -2,10 +2,10 @@ import React from "react";
 import { Routes, Route} from "react-router-dom";
 //Pages
 import Home from "./pages/Home";
-import Contact from "./pages/Contact";
+import DegreeAndCertificate from "./pages/DegreeAndCertificate";
 import JustForLaughs from "./pages/Laugh";
 import PageNotFound from "./pages/PageNotFound";
-import Play from "./pages/Play";
+import Play from "./pages/Personal";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Videos from "./pages/Videos";
@@ -23,20 +23,21 @@ import "./styling/resume.css"
 import "./styling/construction.css"
 import "./styling/laugh.css"
 import "./styling/heist.css"
+import "./styling/personal.css"
 
 function App() {
   return (
       <>
         <Routes>
-          <Route path="contact" element={<Contact />} />
           <Route element={<Layout/>}>
+          <Route path="/degreeAndcertificate" element={<DegreeAndCertificate />} />
           <Route path="/" element={<Home />} />
-          <Route path="/laugh" element={<JustForLaughs/>} />
-          <Route path="/play" element={<Play />} />
-          <Route path="/projects" element={<Projects />} />
+          {/* <Route path="/laugh" element={<JustForLaughs/>} /> */}
+          <Route path="/personal" element={<Play />} />
+          {/* <Route path="/projects" element={<Projects />} /> */}
           <Route path="/resume" element={<Resume/>} />
-          <Route path="/videos" element={<Videos />} />
-          <Route path="/visitors" element={<Visitors />} />
+          {/* <Route path="/videos" element={<Videos />} /> */}
+          {/* <Route path="/visitors" element={<Visitors />} /> */}
           <Route path="*" element={<PageNotFound />} />          
           </Route>
         </Routes>

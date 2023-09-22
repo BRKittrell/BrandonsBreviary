@@ -4,29 +4,19 @@
 
 .card{
     display: block;
-    border: 10px groove aliceblue;
     border-radius: 10px;
     width:max-content;
-    background-color: #BF0603;
-    margin: 1rem
+    /* margin: 1rem */
+    margin-top: .5rem;
 }
 
-.cardList{
-    background-color: grey;
-    text-align: left;
-    list-style: none;
-    font-size: 18px;
-    padding: 5px;
-    margin:0%
-}
 
 .cardPhoto{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     object-fit: cover;
-    border-radius: 100%;
+    border-radius: 12%;
     border: 3px solid aliceblue;
-    margin: 5px;
 }
 
 .cardName{
